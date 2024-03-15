@@ -1,0 +1,4 @@
+﻿CREATE TABLE Many2(
+Id INT IDENTITY PRIMARY KEY,
+VariableMany2 BIT NULL,
+);

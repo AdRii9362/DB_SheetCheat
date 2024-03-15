@@ -1,0 +1,7 @@
+﻿CREATE TABLE MM_Many_Many2(
+Id_Many INT,
+Id_Many2 INT,
+PRIMARY KEY (Id_Many, Id_Many2),
+FOREIGN KEY (Id_Many) REFERENCES Many(Id),
+FOREIGN KEY (Id_Many2) REFERENCES Many2(Id)
+);
