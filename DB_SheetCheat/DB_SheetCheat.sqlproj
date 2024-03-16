@@ -68,4 +68,10 @@
     <Build Include="Tables\MM_Many_Many2.sql" />
     <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_SheetCheat.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\FirstData.sql" />
+  </ItemGroup>
 </Project>
