@@ -58,6 +58,7 @@
     <Folder Include="Properties" />
     <Folder Include="Tables\" />
     <Folder Include="Scripts\" />
+    <Folder Include="Query" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Variables.sql" />
@@ -67,11 +68,12 @@
     <Build Include="Tables\Many2.sql" />
     <Build Include="Tables\MM_Many_Many2.sql" />
     <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="DB_SheetCheat.publish.xml" />
+    <Build Include="Query\AllQuery.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\FirstData.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_SheetCheat.publish.xml" />
   </ItemGroup>
 </Project>

@@ -13,10 +13,6 @@ Modèle de script de post-déploiement
 INSERT INTO One (VariableOne)
 VALUES (1), (0);
 
--- Récupérer les identifiants générés
---DECLARE @Id_One1 INT, @Id_One2 INT;
---SELECT @Id_One1 = SCOPE_IDENTITY(); -- Identifiant de la première ligne insérée
---SELECT @Id_One2 = SCOPE_IDENTITY(); -- Identifiant de la deuxième ligne insérée
 -- Insérer deux lignes dans la table "Many"
 INSERT INTO Many (VariableMany)
 VALUES (1), (0);
@@ -38,5 +34,5 @@ VALUES (1, 1), (0, 2);
 -- Insérer deux lignes dans la table "Variables"
 INSERT INTO Variables (Number, String, Datum, Bool, Mail)
 VALUES (5, 'Hello', '1995-08-29', 1, 'user@example.com'),
-       (8, 'World', GETDATE(), 1, 'another@example.com');
+       (8, 'World', '2024-03-17', 1, 'another@example.com');
 
