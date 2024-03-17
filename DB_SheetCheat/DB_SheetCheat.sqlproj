@@ -69,6 +69,7 @@
     <Build Include="Tables\MM_Many_Many2.sql" />
     <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
     <Build Include="Query\AllQuery.sql" />
+    <Build Include="Query\AllQueries.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\FirstData.sql" />

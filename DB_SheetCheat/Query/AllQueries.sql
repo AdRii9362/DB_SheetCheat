@@ -1,4 +1,8 @@
-	--SELECT * FROM Variables
+﻿CREATE PROCEDURE [dbo].[AllQueries]
+	@param1 int = 0
+
+AS
+		--SELECT * FROM Variables
 
  -- SELECT * FROM Variables WHERE Number <= 5;
 
@@ -16,7 +20,7 @@
 
  -- SELECT * FROM Variables ORDER BY Datum DESC
 
---SELECT *
+ --SELECT *
 --FROM Many
 --JOIN Many2 ON Many.Id = Many2.Id
 --WHERE VariableMany = 1
@@ -29,5 +33,4 @@
 --SELECT VariableOne, VariableOne2 FROM One
 --JOIN One2 ON One.Id = One2.Id
 --GROUP BY VariableOne, VariableOne2
-
-
+RETURN 0
